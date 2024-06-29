@@ -1,0 +1,13 @@
+* The Word Game
+
+Click a button that says "Word!" to increase a counter. Anyone from anywhere can
+join, counter is global and updates for everybody at the same time.
+
+** DONE Nix stuff
+** DONE Blank page
+CLOSED: [2024-06-29 Sat 18:17]
+** TODO Draw clickable button & Header
+** Click count
+** Make two player
+** Give players random name or UUID or something when joining
+** List current player names
