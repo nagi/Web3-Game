@@ -1,12 +1,22 @@
 class TablesController < ApplicationController
+  before_action :get_instance
+
   def index
+    @state
   end
 
-  def update
-    GameState.instance.goal!
+  def create
+    @state.goal!
+    render json: @state.score
   end
 
   def destroy
-    GameState.instance.reset!
+    @state.reset!
+  end
+
+  private
+
+  def get_instance
+    @state = GameState.instance
   end
 end
