@@ -6,10 +6,7 @@ export default class extends Controller {
 
   shoot() {
     fetch(this.shotUrlValue, { method: "POST" })
-      .then(
-        response => response.json())
-      .then(
-        score => { this.outputTarget.textContent = score }
-      )
+      .then(response => response.json())
+      .then(score => { this.outputTarget.textContent = score })
   }
 }
