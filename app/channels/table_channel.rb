@@ -1,6 +1,6 @@
 class TableChannel < ApplicationCable::Channel
   def subscribed
-    # stream_from "some_channel"
+    stream_from 'goal_channel'
   end
 
   def unsubscribed
