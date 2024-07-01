@@ -2,8 +2,8 @@
   description = "The Game - A toy rails app";
 
   nixConfig = {
-    # extra-substituters = "https://nixpkgs-ruby.cachix.org";
-    # extra-trusted-public-keys = "nixpkgs-ruby.cachix.org-1:vrcdi50fTolOxWCZZkw0jakOnUI1T19oYJ+PRYdK4SM=";
+    extra-substituters = "https://nixpkgs-ruby.cachix.org";
+    extra-trusted-public-keys = "nixpkgs-ruby.cachix.org-1:vrcdi50fTolOxWCZZkw0jakOnUI1T19oYJ+PRYdK4SM=";
   };
 
   inputs = {
