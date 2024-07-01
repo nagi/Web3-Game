@@ -1,5 +1,5 @@
 {
-  description = "The Game - A toy rails app";
+  description = "Web3-Game: An experiment";
 
   nixConfig = {
     extra-substituters = "https://nixpkgs-ruby.cachix.org";
@@ -65,7 +65,7 @@
         inherit
           (rubyNix {
             inherit gemset ruby;
-            name = "The Game";
+            name = "Web-3-Game";
             gemConfig = pkgs.defaultGemConfig // gemConfig;
           })
           env
