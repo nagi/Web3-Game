@@ -5,13 +5,12 @@ join, counter is global and updates for everybody at the same time.
 
 ** DONE Nix stuff
 ** DONE Blank page
-CLOSED: [2024-06-29 Sat 18:17]
-** TODO Draw clickable button & Header
-** TODO POST -> update via stimulus. tables#update just logs
-** TODO tables#update updates click count
-** TODO Make two player: Both can update (should work)
-** TODO Both can update (should work)
-** TODO Show score
-** TODO Two seem same score via action cable
-** Give players random name or UUID or something when joining
-** List current player names
+** DONE Draw clickable button & Header
+** DONE POST -> update via stimulus. tables#update just logs
+** DONE tables#update updates click count
+** DONE Make two player
+** DONE Both can update (should work)
+** DONE Show score
+** DONE Two seem same score via action cable
+** TODO Give players random name or UUID or something when joining
+** TODO List current player names
