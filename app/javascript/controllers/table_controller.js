@@ -13,3 +13,10 @@ export default class extends Controller {
       .then(response => response.json())
   }
 }
+
+// Catch event (originates from Server via ActionCable)
+document.addEventListener("Goal!", function(event) {
+  const score = event.detail.score;
+  let scoreElem = document.getElementById('score');
+  scoreElem.innerText = score;
+});
